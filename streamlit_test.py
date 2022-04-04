@@ -1,4 +1,4 @@
-"""Display a something using Streamlit
+"""Display a histogram of the users' stuff
 """
 
 import json
