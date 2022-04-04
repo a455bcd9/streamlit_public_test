@@ -19,6 +19,6 @@ data_load_state = st.text('Loading data...')
 
 AIRTABLE_KEY = os.getenv('AIRTABLE_KEY')
 AIRTABLE_BASE_ID = os.getenv('AIRTABLE_BASE_ID')
-table = Table(AIRTABLE_KEY, AIRTABLE_BASE_ID, 'users)
+table = Table(AIRTABLE_KEY, AIRTABLE_BASE_ID, 'users')
               
 data_load_state.text("Done!")
